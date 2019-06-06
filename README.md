@@ -8,8 +8,8 @@ This application processes the remote control code information file provided to 
 The input file must be a comma delimited value file with a .CSV extension in the following format:
 
 
-<Manufacturer>,<TV Model>,<Remote Code>,
-<Manufacturer>,<TV Model>,<Remote Code>,
+< Manufacturer >,< TV Model >,< Remote Code >,
+< Manufacturer >,< TV Model >,< Remote Code >,
 ...
 
 
