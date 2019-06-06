@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+*                                     { margin: 0px; padding: 0px; }
+
+html                                  { height:100%;}
+ 
+body                                  { margin: 0px; padding: 0px; text-align: center; padding-bottom: 10px; height:100%; }
+
+h1                                    { text-decoration:none; font-family: Verdana, Arial, sans-serif; font-size: 14pt; font-weight: bold; color:#000000;}
+
+
+table.borderOnePx, th, td             { border: 1px solid black; border-collapse:collapse}
+
+table, th, td.noBorder                { border:0px;}
+
+#container                            { clear:both; position:relative; margin-left: auto; margin-right: auto; text-align: left; width: 800px; height:100%;	/* includes the borders */ }
+
+#containerMain                        { background-color: #F9F9F9; border:1px; border-style:solid; padding-top:30px; padding-bottom:30px; padding-left:0px; height: 200px; width: 800px;}
+#containerMainFileList                { background-color: #F9F9F9; border:1px; border-style:solid; padding-top:30px; padding-bottom:30px; padding-left:0px; height: 550px; width: 800px;}
+#containerMainHelp                    { position:relative;background-color: #F9F9F9; border:1px; border-style:solid; padding-top:30px; padding-bottom:30px; padding-left:0px;  height:100%; width: 800px;}
+#wrap                                 { height: 100%;}
+#mainTitle                            { float:left; width:500px; height:50px; margin-left:50px; margin-top:30px; text-decoration:none; font-family: Verdana, Arial, sans-serif; font-size: 14pt; font-weight: bold; color:#000000;}
+#subTitle                             { float:right; width:30px; height:50px; margin-right:10px; margin-top:5px; text-decoration:none; font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-weight: normal; color:#000000;}
+#mainArea                             { float:left; width:700px; height:100%px; margin-left:50px; margin-top:30px; text-decoration:none; font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-weight: normal; color:#000000; overflow:auto;}
+
+#formArea                             { float:left; width:700px; height:50px; margin-left:50px; margin-top:30px; text-decoration:none; font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-weight: bold; color:#000000;}
+
+#footer                               { float:left; width:700px;  height:50px; text-align:right ; margin-left:50px; text-decoration:none; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-weight: normal; color:#000000;}
+ 
+
+input                                 { text-decoration:none; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-weight: bold; color:#000000; }
+
+input.file                            { text-decoration:none; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-weight: bold; color:#000000; }
+
+a                                     { text-decoration:none; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-weight: normal; color:#F00000; }
+
+a:hover                               { text-decoration:underline; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-weight: normal; color:#FF0000; }
+
+.italics                              { font-style:italic;}
+.eightpoint                           { font-size: 8pt;}
+.padFivePx                            { padding: 5px; }
